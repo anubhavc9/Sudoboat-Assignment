@@ -1,0 +1,16 @@
+.outer{
+    display: flex;
+}
+
+.inner {
+    display: flex;
+}
+
+.seat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    border: 2px solid white;
+}
