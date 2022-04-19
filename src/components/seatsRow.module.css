@@ -1,4 +1,4 @@
-.outer{
+.outer {
     display: flex;
 }
 
@@ -16,11 +16,11 @@
     margin-left: 3rem;
 }
 
-.seat{
+.seat {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 55px;
+    height: 30px;
+    width: 90px;
     border: 2px solid white;
 }

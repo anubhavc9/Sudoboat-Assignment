@@ -6,19 +6,19 @@
 .colA {
     border: 1px solid black;
     background-color: rgb(132, 174, 191);
-    padding: 15px 50px;
+    padding: 15px 104px;
     margin-right: 54px;
 }
 
 .colB {
     border: 1px solid black;
     background-color: rgb(132, 174, 191);
-    padding: 15px 80px;
+    padding: 15px 149px;
 }
 
 .colC {
     border: 1px solid black;
     background-color: rgb(132, 174, 191);
-    padding: 15px 50px;
+    padding: 15px 104px;
     margin-left: 52px;
 }
