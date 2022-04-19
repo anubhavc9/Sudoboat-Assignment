@@ -1,0 +1,24 @@
+.colWrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.colA {
+    border: 1px solid black;
+    background-color: rgb(132, 174, 191);
+    padding: 15px 50px;
+    margin-right: 54px;
+}
+
+.colB {
+    border: 1px solid black;
+    background-color: rgb(132, 174, 191);
+    padding: 15px 80px;
+}
+
+.colC {
+    border: 1px solid black;
+    background-color: rgb(132, 174, 191);
+    padding: 15px 50px;
+    margin-left: 52px;
+}

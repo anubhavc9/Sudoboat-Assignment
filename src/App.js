@@ -1,7 +1,9 @@
 import { Fragment } from "react";
+import ColumnHeading from "./components/columnHeading";
+import FrontRow from "./components/frontRow";
 import SeatsRow from "./components/seatsRow";
 
-const n = 27; // take this as user input
+const n = 148; // take this as user input
 var sequence = [1, 4, 5, 8, 0, 9, 2, 3, 6, 7];
 var color = [
   "orange",
@@ -50,6 +52,8 @@ function App() {
 
   return (
     <Fragment>
+      <FrontRow />
+      <ColumnHeading />
       {seats.map((seatsRow, index) => (
         <SeatsRow key={index} currentRowArray={seatsRow} />
       ))}
