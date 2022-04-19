@@ -2,8 +2,18 @@
     display: flex;
 }
 
-.inner {
+.innerA {
     display: flex;
+    margin-right: 3rem;
+}
+
+.innerB {
+    display: flex;
+}
+
+.innerC {
+    display: flex;
+    margin-left: 3rem;
 }
 
 .seat{
@@ -11,6 +21,6 @@
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 60px;
+    width: 55px;
     border: 2px solid white;
 }
