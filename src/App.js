@@ -7,17 +7,19 @@ import classes from './App.module.css';
 
 const n = 148; // take this as user input
 var sequence = [1, 4, 5, 8, 0, 9, 2, 3, 6, 7];
+
+// '#ffc65e' is Orange, '#b5caf9' is Blue, '7eba7e' is Green,
 var color = [
-  "orange",
-  "orange",
-  "orange",
-  "orange",
-  "blue",
-  "blue",
-  "green",
-  "green",
-  "green",
-  "green",
+  '#ffc65e',
+  '#ffc65e',
+  '#ffc65e',
+  '#ffc65e',
+  '#b5caf9',
+  '#b5caf9',
+  '#7eba7e',
+  '#7eba7e',
+  '#7eba7e',
+  '#7eba7e',
 ];
 
 function App() {
