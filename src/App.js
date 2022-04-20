@@ -8,12 +8,12 @@ import Input from "./components/input";
 
 var sequence = [1, 4, 5, 8, 0, 9, 2, 3, 6, 7]; // the sequence in which a row is to be filled
 
-// '#ffc65e' is Orange, '#b5caf9' is Blue, '7eba7e' is Green,
+// '#fccf9d' is Orange, '#b5caf9' is Blue, '7eba7e' is Green,
 var color = [
-  '#ffc65e',
-  '#ffc65e',
-  '#ffc65e',
-  '#ffc65e',
+  '#fccf9d',
+  '#fccf9d',
+  '#fccf9d',
+  '#fccf9d',
   '#b5caf9',
   '#b5caf9',
   '#7eba7e',
