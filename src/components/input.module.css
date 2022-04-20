@@ -9,7 +9,7 @@ form label {
 form input[type='text'] {
     padding: 10px 5px;
     width: 18rem;
-    margin-right: 5rem;
+    margin-right: 6rem;
 }
 
 form button[type='submit'] {
@@ -26,4 +26,9 @@ form button:hover{
 
 .formInner {
     display: flex;
+}
+
+.invalid{
+    border: 2px solid red;
+    background-color: #FFEEE9;
 }
