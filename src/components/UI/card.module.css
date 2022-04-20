@@ -2,3 +2,9 @@
     border: 1px solid;
     margin: 30px;
 }
+
+@media (max-width: 1098px) {
+    .card {
+        border: none;
+    }
+}

@@ -20,7 +20,7 @@ form button[type='submit'] {
     background-color: #ffffd6;
 }
 
-form button:hover{
+form button:hover {
     background-color: #f3f39b;
 }
 
@@ -28,7 +28,31 @@ form button:hover{
     display: flex;
 }
 
-.invalid{
+.invalid {
     border: 2px solid red;
     background-color: #FFEEE9;
+}
+
+@media (max-width: 820px) {
+    form input[type='text'] {
+        width: 13rem;
+        margin-right: 3rem;
+    }
+    form button[type='submit'] {
+        padding: 2px 26px;
+        width: 10rem;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1070px) {
+    form input[type='text'] {
+        width: 15rem;
+        margin-right: 4rem;
+    }
+    form button[type='submit'] {
+        padding: 2px 30px;
+        width: 12rem;
+        font-size: 14px;
+    }
 }
