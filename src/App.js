@@ -4,6 +4,7 @@ import FrontRow from "./components/frontRow";
 import SeatsRow from "./components/seatsRow";
 import Card from "./components/UI/card";
 import classes from './App.module.css';
+import Input from "./components/input";
 
 const n = 148; // take this as user input
 var sequence = [1, 4, 5, 8, 0, 9, 2, 3, 6, 7];
@@ -58,6 +59,7 @@ function App() {
     <Fragment>
       <Card>
         <div className={classes.cardContentWrapper}>
+          <Input />
           <FrontRow />
           <ColumnHeading />
           {seats.map((seatsRow, index) => (

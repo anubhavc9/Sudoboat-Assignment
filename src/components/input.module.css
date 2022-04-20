@@ -1,0 +1,29 @@
+.formWrapper {
+    margin-bottom: 25px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type='text'] {
+    padding: 10px 5px;
+    width: 18rem;
+    margin-right: 5rem;
+}
+
+form button[type='submit'] {
+    padding: 2px 40px;
+    width: 13rem;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffffd6;
+}
+
+form button:hover{
+    background-color: #f3f39b;
+}
+
+.formInner {
+    display: flex;
+}
