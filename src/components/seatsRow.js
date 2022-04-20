@@ -1,8 +1,6 @@
 import classes from './seatsRow.module.css';
 
 const SeatsRow = (props) => {
-//   console.log(props.currentRowArray);
-
   return (
     <div className={classes.outer}>
 

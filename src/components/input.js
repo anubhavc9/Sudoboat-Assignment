@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import classes from "./input.module.css";
 
-const Input = () => {
+const Input = (props) => {
   const passengersInputRef = useRef();
   const [inputValidity, setInputValidity] = useState(true);
 
@@ -11,11 +11,11 @@ const Input = () => {
     if(passengersInputRef.current.value < 11 || passengersInputRef.current.value > 200) {
         setInputValidity(false);
         return;
-
     }
-
+    
+    // if the above checks passed, user input is valid!
     setInputValidity(true);
-    console.log(passengersInputRef.current.value);
+    props.onFormSubmit(passengersInputRef.current.value);
   };
 
   return (
